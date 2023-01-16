@@ -1,5 +1,2 @@
-# findDNAFusion
-A pipeline combining multiple software tools for the deteion of cancer-associated gene fusions in Next-Generation DNA Sequencing
-
-FACTERA, JULI and GeneFuse were optimally configured in the pipeline to support a list of target fusion genes (36 clinically 
-relvant fusion genes) in solid tomor panel for the analysis of multiple samples simultanesously.
+# FindDNAFusion
+FindDNAFusion is a combinatorial pipeline for the deteion of cancer-associated gene fusions in Next-Generation DNA Sequencing. It integates FACTERA, JULI and GeneFuse fusion callers in optimal settings with a series of processing methods for reporting fusion clinically. These methods include parsing the outputs of three software tools, filtering out common tool-specific artifactual calls, selecting reportable fusions according to criteria we established, annotating selected fusions using proper visualization application. This combinatorial pipeline improved accuracy of cancer-associated gene fusion detection in clinical genomic assays with intensive validation. It also boosts efficiency of the detection by automating a series of well-developed methods of processing fusion calls for reporting clinically. This pipeline can be used as an accurate and efficient tool in the detection of somatic fusions by DNA intron tiling for large clinical gene panels and other clinical cancer diagnosis.
