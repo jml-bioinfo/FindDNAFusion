@@ -7,6 +7,7 @@ git clone https://github.com/jml-bioinfo/FindDNAFusion.git
 #
 # download reference data 
 cd FindDNAFusion/database
+
 wget https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.fa.gz
 gunzip hg19.fa.gz
 bwa index -a bwtsw hg19.fa
