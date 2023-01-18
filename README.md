@@ -4,10 +4,9 @@ FindDNAFusion is a combinatorial pipeline for the detection of cancer-associated
 # Install & set up
 # get source
 git clone https://github.com/jml-bioinfo/FindDNAFusion.git
-cd FindDNAFusion
-cd database
 #
 # download reference data 
+cd FindDNAFusion/database
 wget https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.fa.gz
 gunzip hg19.fa.gz
 bwa index -a bwtsw hg19.fa
@@ -22,7 +21,7 @@ mv gencode.v19.annotation.gtf GENCODE19.gtf
 3. GeneFuse0.8.0 from https://github.com/OpenGene/GeneFuse;
 4. BWA 0.7.17-r1188 or newer
 5. SAMtools1.10 or newer
-6. 
+6. Other software packages Perl modules Getopt::Long, Cwd, and POSIX.
 # Usage
 Provide the following arguments to run FindDNAFusion
 1. the reference genome fasta file specified by -r
