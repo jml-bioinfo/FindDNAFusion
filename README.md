@@ -29,5 +29,6 @@ Provide the following arguments to run FindDNAFusion
 2. input directory storing raw seqence FASTQ files, specified by -i
 3. output directory (optional)
 4. number of CPUs, specified by -c
-# example, 
+
+#for example, 
 ./FindDNAFusion -i /ion/LNGS-new/RUN163/raw-seq -r /data/reference/Homo_sapiens/UCSC/hg19/Sequence/GATKBundle/hg19.fasta -c 16 -o test2 &
