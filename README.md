@@ -37,7 +37,7 @@ Provide the following arguments to run FindDNAFusion
 1. the reference genome fasta file specified by -r
 2. input directory storing raw seqence FASTQ files, specified by -i
 3. output directory (optional)
-4. number of CPUs, specified by -c
+4. number of CPUs, specified by -c (optional)
 
 #for example
 
