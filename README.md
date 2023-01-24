@@ -37,7 +37,7 @@ mv gencode.v19.annotation.gtf GENCODE19.gtf
 
 # usage
 Provide the following arguments to run FindDNAFusion
-1. the reference genome fasta file specified by -r
+1. the reference genome fasta file specified by -r (currently, it is limited to use HG19)
 2. input directory storing raw seqence FASTQ files, specified by -i
 3. output directory (optional)
 4. number of CPUs, specified by -c (optional)
