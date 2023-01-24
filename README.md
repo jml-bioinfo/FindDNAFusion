@@ -33,12 +33,12 @@ mv gencode.v19.annotation.gtf GENCODE19.gtf
 3. GeneFuse0.8.0 from https://github.com/OpenGene/GeneFuse;
 4. BWA 0.7.17-r1188 or newer
 5. SAMtools1.10 or newer
-6. Other software packages Perl modules Getopt::Long, Cwd, and POSIX.
+6. Other software packages (Perl modules) Getopt::Long, Cwd, and POSIX.
 
 # usage
 Provide the following arguments to run FindDNAFusion
-1. the reference genome fasta file specified by -r (currently, it is limited to use HG19)
-2. input directory storing raw seqence FASTQ files, specified by -i
+1. input directory storing raw seqence FASTQ files, specified by -i
+2. the reference genome fasta file specified by -r (this release is limited to use HG19)
 3. output directory (optional)
 4. number of CPUs, specified by -c (optional)
 
