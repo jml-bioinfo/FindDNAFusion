@@ -45,3 +45,7 @@ Provide the following arguments to run FindDNAFusion
 #for example
 
 ./FindDNAFusion -i /ion/LNGS-new/RUN163/raw-seq -r /data/reference/Homo_sapiens/UCSC/hg19/Sequence/GATKBundle/hg19.fasta -c 16 -o test2 &
+
+# Contact information
+
+Xiaokang.Pan@osumc.edu
