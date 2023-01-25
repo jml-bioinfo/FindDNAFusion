@@ -935,7 +935,7 @@ foreach my $file (sort {$a cmp $b} keys %files) {
 
 }
 system("sleep 10m");
-system("rm $outpath/tmp-dir");
+system("rm -r $outpath/tmp-dir");
 
 sub Juli_to_Arriba_fusion_line {
 
