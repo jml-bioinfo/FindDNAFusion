@@ -6,7 +6,7 @@ Requires high performance Linux computer.
 #
 # get source
 git clone https://github.com/jml-bioinfo/FindDNAFusion.git
-#
+
 # download reference data and create index if you do not have BWA indexed data files  
 cd FindDNAFusion/database
 
