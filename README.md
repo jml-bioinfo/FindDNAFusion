@@ -10,6 +10,8 @@ git clone https://github.com/jml-bioinfo/FindDNAFusion.git
 cd FindDNAFusion
 
 wget https://raw.githubusercontent.com/suhrig/arriba/master/draw_fusions.R
+
+chmod guo+x draw_fusions.R
 #
 # download reference data and create index if you do not have BWA indexed data files  
 cd FindDNAFusion/database
