@@ -34,9 +34,9 @@ gunzip gencode.v19.annotation.gtf.gz
 mv gencode.v19.annotation.gtf GENCODE19.gtf
 
 # install software dependencies
-1. JULI-v0.1.6.2 from https://github.com/sgilab/JuLI;
-2. FACTERA1.4.4 from http://factera.stanford.edu;
-3. GeneFuse0.8.0 from https://github.com/OpenGene/GeneFuse;
+1. JULI-v0.1.6.2 from https://github.com/sgilab/JuLI
+2. FACTERA1.4.4 from http://factera.stanford.edu
+3. GeneFuse0.8.0 from https://github.com/OpenGene/GeneFuse
 4. BWA 0.7.17-r1188 or newer
 5. SAMtools1.10 or newer
 6. Other software packages (Perl modules) Getopt::Long, Cwd, and POSIX.
