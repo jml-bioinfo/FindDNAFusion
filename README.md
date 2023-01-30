@@ -3,7 +3,7 @@ FindDNAFusion is a combinatorial pipeline for the detection of cancer-associated
 #
 # Install & Set up
 Requires high performance Linux computer.
-
+#
 # get source
 git clone https://github.com/jml-bioinfo/FindDNAFusion.git
 #
@@ -46,7 +46,7 @@ Provide the following arguments to run FindDNAFusion
 #for example
 
 ./FindDNAFusion -i /ion/LNGS-new/RUN163/raw-seq -p database/CTP-targeted-intron-regions.bed -r /data/reference/Homo_sapiens/UCSC/hg19/Sequence/GATKBundle/hg19.fasta -c 16 -o test2 &
-
+#
 # Questions or feedback
 
 Please email to Xiaokang.Pan@osumc.edu
