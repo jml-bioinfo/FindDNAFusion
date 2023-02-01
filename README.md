@@ -1,13 +1,13 @@
 # FindDNAFusion
 FindDNAFusion is a combinatorial pipeline for the detection of cancer-associated gene fusions in next-generation DNA sequencing data. It integates FACTERA, JULI and GeneFuse fusion callers in optimal settings with a series of processing methods for reporting fusion clinically. These methods include parsing the outputs of three software tools, filtering out common tool-specific artifactual calls, selecting reportable fusions according to criteria we established, annotating selected fusions using proper visualization application. This combinatorial pipeline improved accuracy of cancer-associated gene fusion detection in clinical genomic assays. It also boosts efficiency of the detection by automating a series of well-developed methods of processing fusion calls for reporting clinically. This pipeline can be used as an accurate and efficient tool in the detection of somatic fusions by DNA intron tiling for large clinical gene panels and other clinical cancer diagnosis.
-
-# Install & Set up (requires high performance Linux computer)
+#
+# Install & Set up 
+Requires high performance Linux computer.
 
 # get source
 git clone https://github.com/jml-bioinfo/FindDNAFusion.git
 
 # download reference data and create index if no BWA indexed data files on your computer 
-
 cd FindDNAFusion/database
 
 wget https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.fa.gz
@@ -18,7 +18,7 @@ bwa index -a bwtsw hg19.fa
 
 samtools faidx hg19.fasta
 
-Download other required big data files
+# download other required big data files
 
 wget http://hgdownload.cse.ucsc.edu/goldenpath/hg19/bigZips/hg19.2bit
 
@@ -46,7 +46,7 @@ Provide the following arguments to run FindDNAFusion
 
 #for example
 
-./FindDNAFusion -i /ion/LNGS-new/RUN163/raw-seq -p database/CTP-targeted-intron-regions.bed -r database/hg19.fasta -c 16 -o output-folder &
+./FindDNAFusion -i /ion/LNGS-new/RUN163/raw_seq_dir -p database/CTP-targeted-intron-regions.bed -r database/hg19.fasta -c 16 -o output_dir &
 #
 # Contact & feedback
 
