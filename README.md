@@ -3,11 +3,12 @@ FindDNAFusion is a combinatorial pipeline for the detection of cancer-associated
 #
 # Install & Set up
 Requires high performance Linux computer.
-#
-# get source
+
+Get source
 git clone https://github.com/jml-bioinfo/FindDNAFusion.git
 
-# download reference data and create index if no BWA indexed data files on your computer  
+Download reference data and create index if no BWA indexed data files on your computer 
+
 cd FindDNAFusion/database
 
 wget https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.fa.gz
@@ -18,7 +19,8 @@ bwa index -a bwtsw hg19.fa
 
 samtools faidx hg19.fasta
 
-# download other required big data files
+Download other required big data files
+
 wget http://hgdownload.cse.ucsc.edu/goldenpath/hg19/bigZips/hg19.2bit
 
 wget https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_19/gencode.v19.annotation.gtf.gz
