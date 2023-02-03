@@ -46,7 +46,7 @@ Provide the following arguments to run FindDNAFusion
 
 #for example
 
-./FindDNAFusion -i /ion/LNGS-new/RUN163/raw_seq_dir -p database/CTP-targeted-intron-regions.bed -r database/hg19.fasta -c 16 -o output_dir &
+./FindDNAFusion -i /ion/LNGS-new/RUN163/raw_seq_dir -p database/example-targeted-intron-regions.bed -r database/hg19.fasta -c 16 -o output_dir &
 #
 # Contact & feedback
 
