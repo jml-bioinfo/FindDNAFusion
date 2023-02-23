@@ -32,7 +32,9 @@ It requires to take a directory containing a set of FASTQ files and a
 BED file containing targeted intron regions associated gene fusions 
 as input. The output results will be generated in three different 
 folders, which are then parsed, filtered and selected into two text 
-files: Possible-fusions.txt and Reportable-fusions.txt.
+files: Possible-fusions.txt and Reportable-fusions.txt. A set of PDF
+files are also generated. Each PDF file contains reportable fusions
+being annotated in graphical representation of a sample.
 
 
 =head5 AUTHOR
