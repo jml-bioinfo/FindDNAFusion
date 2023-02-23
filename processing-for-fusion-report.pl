@@ -13,7 +13,7 @@ processing-for-fusion-report.pl
 
 =head2 SYNOPSIS
 
-perl processing-for-fusion-report.pl -i input-directory -o output-directory
+perl processing-for-fusion-report.pl -i path-of-input-seq-files -b path-of-bam-files -o path-of-output
 
 
 =head3 DESCRIPTION
@@ -22,7 +22,8 @@ perl processing-for-fusion-report.pl -i input-directory -o output-directory
 tool-specific artifactual calls based on a blacklist of artifacts we established, selects 
 reportable fusions according to critera we developed and annotates the selected fusions by importing
 a visualization application. It generates files "Possible-fusions.txt", "Reportable-fusions.txt" 
-and a set of annotated fusion files per file per sample in PDF format.
+and a set of PDF files. Each PDF file contains reportable fusions being annotated in graphical
+representation of a sample.
 
 Selection criteria for reportable fusions in DNA:
 
@@ -40,7 +41,7 @@ Xiaokang Pan (Xiaokang.Pan@osumc.edu)
 
 =head5 LAST UPDATE
 
-12/28/2022
+02/23/2023
 
 =cut
 
